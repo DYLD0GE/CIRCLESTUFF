@@ -1,0 +1,22 @@
+#circle {
+  border-radius: 50%;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  transition: all 1s;
+  margin: 0 auto;
+}
+@keyframes example {
+    0%   {background-color: red;}
+    20%  {background-color: yellow;}
+    40%  {background-color: blue;}
+    80% {background-color: green;}
+    100% {background-color: red;}
+}
+section {
+  text-align: center;
+}
+* {
+  font-family: 'Roboto', sans-serif;
+}
